@@ -1,0 +1,45 @@
+header {
+	position: fixed;
+	z-index: 9999 !important;
+	width: 100vw;
+	background-color: #282c33; 
+	opacity: 0.7;
+}
+
+header li {
+	display: inline-block;
+	color: white;
+}
+
+.header-link, .header-link:active, .header-link:visited, .header-link:focus {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.header-link:hover {
+	color: #ef8b34;
+	text-decoration: none;
+}
+
+.header-link-divider {
+  width: 12%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+@media(max-width: 800px) {
+  header ul {
+    padding-left: 0px;
+  }
+
+  .header-icon {
+    margin-bottom: 0px;
+    margin-right: 1rem;
+  }
+}
+
