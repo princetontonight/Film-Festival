@@ -1,14 +1,14 @@
 header {
-	position: fixed;
-	z-index: 9999 !important;
-	width: 100vw;
-	background-color: #282c33; 
-	opacity: 0.7;
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100vw;
+    background-color: #282c33; 
+    opacity: 0.7;
 }
 
 header li {
-	display: inline-block;
-	color: white;
+    display: inline-block;
+    color: white;
 }
 
 .header-link, .header-link:active, .header-link:visited, .header-link:focus {
@@ -18,8 +18,8 @@ header li {
 }
 
 .header-link:hover {
-	color: #ef8b34;
-	text-decoration: none;
+    color: #ef8b34;
+    text-decoration: none;
 }
 
 .header-link-divider {
@@ -29,7 +29,7 @@ header li {
 }
 
 body {
-	margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 @media(max-width: 800px) {

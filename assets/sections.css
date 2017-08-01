@@ -1,130 +1,138 @@
+body {
+    /*In case don't cover all background*/
+    background-color: #282c33;
+
+    /*No horizontal scrolling*/
+    overflow-x: hidden;
+}
+
 section:first-of-type {
-	width: 100vw;
-	height: 100vh;
-	position: relative;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 #about {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
-	overflow: auto;
-	height: auto;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
+    overflow: auto;
+    height: auto;
 }
 
 #about img{
-	width: 19vw;
-	display: inline-block;
-	float: left;
-	height: auto;
+    width: 19vw;
+    display: inline-block;
+    float: left;
+    height: auto;
 }
 
 #about p:first-of-type {
-	padding-top: 80;
+    padding-top: 80;
 }
 
 .clapperboard {
-	height: 300px;
+    height: 300px;
 }
 
 .notecard {
-	height: auto;
+    height: auto;
 }
 
 .notecard img {
-	padding-right: 3vw;
-	width: 30vw;
+    padding-right: 3vw;
+    width: 30vw;
 }
 
 #about h1, #rules h1, #awards h1, #submit h1, #speakers h1, #venues h1, #sponsors h1, #contact h1 {
-	color: #ef8b34; 
-	font-size: 24px;
-	text-align: center;
-	padding-top: 10px;
+    color: #ef8b34;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #rules {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
 }
 
 #rules img {
-	padding-left: 35vw;
+    padding-left: 35vw;
 }
 
 .notecard p {
-	clear: left;
+    clear: left;
     text-align: center;
     width: 50vw;
     padding-left: 25vw;
     padding-top: 9px;
 }
 #awards {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
 }
 
 em {
-/*	color: #0e9fed; */
-	color: #ef8b34;
+/*  color: #0e9fed; */
+    color: #ef8b34;
 }
 
 #submit {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
 }
 
 #speakers {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
 }
 
 #venues {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
 }
 
 #sponsors {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
-	height: auto;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
+    height: auto;
 }
 
 #contact {
-	width: 100vw;
-	color: #F9F3F4;
-	float: right;
-	background-color: #282c33;
+    width: 100vw;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
 }
 
 .profs {
-	width: 100vw;
-	height: 300px;
-	position: relative;
+    width: 100vw;
+    height: 300px;
+    position: relative;
 }
 
 /* Have to account for smaller screens */
 #map_wrapper {
-	height: 400px;
+    height: 400px;
 }
 
 /* same here */
 #map_canvas {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -155,10 +163,10 @@ em {
 
  .container:hover .overlay {
   opacity: .75;
-} 
+}
 
 .container:click {
-	
+
 }
 
 .text {

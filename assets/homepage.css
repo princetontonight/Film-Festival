@@ -1,41 +1,41 @@
 .landing-page {
-	width: 100vw;
-	height: 100vh;
+    width: 100vw;
+    height: 100vh;
 
-	background-image: url(../assets/Garfunkel.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+    background-image: url(../assets/Garfunkel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
-	position: absolute;
+    position: absolute;
 }
 
 h1.center {
-	text-align: center;
-	padding-top: 45vh;
-	color: #F9F3F4;
-	text-shadow: 1px;
-	font-size: 52px;
+    text-align: center;
+    padding-top: 45vh;
+    color: #F9F3F4;
+    text-shadow: 1px;
+    font-size: 52px;
 }
 
 .btn, .btn:active, .btn:visited {
-	color:#F9F3F4;
-	background-color: none;
-	border: none;
-	border-radius: 12px;
-	padding: 10px 20px;
-	border: solid #F9F3F4 3px;
-	text-align: center;
-	text-decoration: none;
+    color:#F9F3F4;
+    background-color: none;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    border: solid #F9F3F4 3px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .btn:hover{
-	background-color: #282c33; 
-	border: solid white 3px;
-	border-color: #282c33; 
-	color: #F9F3F4;
+    background-color: #282c33; 
+    border: solid white 3px;
+    border-color: #282c33; 
+    color: #F9F3F4;
 }
 
 .center {
-	text-align: center;
+    text-align: center;
 }
