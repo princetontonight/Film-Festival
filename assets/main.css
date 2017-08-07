@@ -12,3 +12,15 @@ button {
 button:hover {
     background-color: #FFE8A0;
 }
+
+.spacer {
+    width: 100%;
+    color: #F9F3F4;
+    float: right;
+    background-color: #282c33;
+
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./blairhall.jpg);
+}

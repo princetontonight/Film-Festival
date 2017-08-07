@@ -12,6 +12,10 @@ section:first-of-type {
     position: relative;
 }
 
+section {
+    width: 100%;
+}
+
 #about {
     width: 100%;
     color: #F9F3F4;

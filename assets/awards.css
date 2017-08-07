@@ -10,4 +10,9 @@
 .awards-section img {
     width: 200px;
     margin: auto;
+    transition: 200ms transform;
+}
+
+.awards-section img:hover {
+    transform: scale(1.2);
 }
