@@ -1,0 +1,14 @@
+/*For consistent/common components*/
+
+button {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid gold;
+    background-color: gold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFE8A0;
+}
