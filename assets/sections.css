@@ -7,13 +7,13 @@ body {
 }
 
 section:first-of-type {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
 }
 
 #about {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
@@ -53,7 +53,7 @@ section:first-of-type {
 }
 
 #rules {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
@@ -71,7 +71,7 @@ section:first-of-type {
     padding-top: 9px;
 }
 #awards {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
@@ -83,28 +83,28 @@ em {
 }
 
 #submit {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
 }
 
 #speakers {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
 }
 
 #venues {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
 }
 
 #sponsors {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
@@ -112,14 +112,14 @@ em {
 }
 
 #contact {
-    width: 100vw;
+    width: 100%;
     color: #F9F3F4;
     float: right;
     background-color: #282c33;
 }
 
 .profs {
-    width: 100vw;
+    width: 100%;
     height: 300px;
     position: relative;
 }
