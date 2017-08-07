@@ -1,0 +1,29 @@
+.venue {
+    float: right;
+    background-image: url(http://c8.alamy.com/comp/E4CJG4/cannon-green-at-princeton-university-with-east-pyne-to-the-right-princeton-E4CJG4.jpg);
+    background-size: cover;
+    background-position: center;
+
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 52px;
+}
+
+.venue-card {
+    width: 400px;
+    margin-top: 50px;
+    margin: auto;
+    padding: 32px;
+
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    border: 1px solid gold;
+
+    color: gold;
+    text-align: center;
+}
+
+.venue-card a {
+    color: gold;
+}

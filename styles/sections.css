@@ -6,7 +6,7 @@ body {
     overflow-x: hidden;
 }
 
-section:first-of-type {
+.section-welcome {
     width: 100%;
     height: 100vh;
     position: relative;

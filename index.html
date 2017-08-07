@@ -11,6 +11,7 @@
         <link rel="stylesheet" type="text/css" href="styles/submit.css"/>
         <link rel="stylesheet" type="text/css" href="styles/main.css"/>
         <link rel="stylesheet" type="text/css" href="styles/awards.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/venue.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     </head>
@@ -45,7 +46,7 @@
     </header>
 
     <body>
-        <section>
+        <section class="section-welcome">
             <div class="landing-page">
                 <h1 class="center">Princeton Film Festival<h1>
                 <div class="center">
@@ -125,13 +126,12 @@
         </section>
         <section class="spacer">
         </section>
-        <section>
-            <div id="venues">
-                <h1> V E N U E S </h1>
-                <p> Could add various images or map using google api (or both?)<br>Default clickable for now, but could add events hosted at each venue once I know that</br></p>
-                <div id="map_wrapper">
-                    <div id="map_canvas" class="mapping"></div>
-                </div>
+        <section id="venus" class="venue">
+            <div class="venue-card">
+                <h2>East Pyne</h2>
+                <a href="https://www.google.com/maps/place/East+Pyne+Hall,+Princeton,+NJ+08542/@40.3486338,-74.6605951,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3e6c14325f953:0x6e10edd190d47787!8m2!3d40.3487701!4d-74.6584686" target="_blank">
+                    <p>Princeton, New Jersey<p>
+                </a>
             </div>
         </section>
         <section>
@@ -193,6 +193,5 @@
 
     <script src="scripts/scroll.js" type="text/javascript"></script>
     <script src="scripts/map.js" type="text/javascript"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxxf4ngGgPw1nNO1UmnOQFrWQe0ZFmYJ4&callback=initialize">
-    </script>
+    
 </html>
