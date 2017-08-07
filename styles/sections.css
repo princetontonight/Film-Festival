@@ -1,5 +1,5 @@
 body {
-    /*In case don't cover all background*/
+    background*/
     background-color: #282c33;
 
     /*No horizontal scrolling*/
@@ -20,8 +20,7 @@ section {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
-    overflow: auto;
+        overflow: auto;
     height: auto;
 }
 
@@ -60,7 +59,7 @@ section {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
 }
 
 #rules img {
@@ -78,7 +77,7 @@ section {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
 }
 
 em {
@@ -90,28 +89,28 @@ em {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
 }
 
 #speakers {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
 }
 
 #venues {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
 }
 
 #sponsors {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
     height: auto;
 }
 
@@ -119,7 +118,7 @@ em {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    background-color: #282c33;
+    
 }
 
 .profs {

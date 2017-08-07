@@ -22,5 +22,9 @@ button:hover {
     height: 250px;
     background-size: cover;
     background-position: center;
-    background-image: url(./blairhall.jpg);
+    background-image: url(../assets/blairhall.jpg);
+}
+
+html {
+    background-color: #282c33;
 }
