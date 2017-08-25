@@ -20,32 +20,21 @@ section {
     width: 100%;
     color: #F9F3F4;
     float: right;
-        overflow: auto;
+    overflow: auto;
+    background-image: url(../assets/chancellorgreen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: auto;
+    position: relative;
 }
 
-#about img{
-    width: 19vw;
-    display: inline-block;
-    float: left;
-    height: auto;
+#about p {
+  padding-left: 1vw;
 }
 
-#about p:first-of-type {
-    padding-top: 80;
-}
-
-.clapperboard {
-    height: 300px;
-}
-
-.notecard {
-    height: auto;
-}
-
-.notecard img {
-    padding-right: 3vw;
-    width: 30vw;
+.eastpyne-container {
+  height: 66vh;
 }
 
 #about h1, #rules h1, #awards h1, #submit h1, #speakers h1, #venues h1, #sponsors h1, #contact h1 {
@@ -55,24 +44,6 @@ section {
     padding-top: 10px;
 }
 
-#rules {
-    width: 100%;
-    color: #F9F3F4;
-    float: right;
-    
-}
-
-#rules img {
-    padding-left: 35vw;
-}
-
-.notecard p {
-    clear: left;
-    text-align: center;
-    width: 50vw;
-    padding-left: 25vw;
-    padding-top: 9px;
-}
 #awards {
     width: 100%;
     color: #F9F3F4;
@@ -127,18 +98,7 @@ em {
     position: relative;
 }
 
-/* Have to account for smaller screens */
-#map_wrapper {
-    height: 400px;
-}
-
-/* same here */
-#map_canvas {
-    width: 100%;
-    height: 100%;
-}
-
-.container {
+.prof-container {
   position: relative;
   width: 225px;
   float: left;
@@ -164,12 +124,8 @@ em {
   background-color: #ef8b34;
 }
 
- .container:hover .overlay {
+ .prof-container:hover .overlay {
   opacity: .75;
-}
-
-.container:click {
-
 }
 
 .text {
@@ -178,4 +134,56 @@ em {
   position: absolute;
   bottom: 2px;
   padding-left: 3px;
+}
+
+.text h4 {
+  font-size: 25px;
+}
+
+.text p {
+  font-size: 15px;
+}
+
+em::before, em::after{
+    font-family: 'EB Garamond', serif;
+      content: "§";
+      display: inline-block;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+      font-size: 1em;
+      letter-spacing: 15px;
+      padding-left: 13px;
+}
+
+.card {
+  background-color: #282c33;
+  max-width: 40vw;
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+  padding-left: 5px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 15px; 
+}
+
+@media (max-width: 480px) {
+  #about {
+    overflow: auto;
+    height: auto;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 1024px) and (min-width: 480px) {
+  .card {
+    padding-top: 20px;
+    margin-top: 150px;
+  } 
 }
