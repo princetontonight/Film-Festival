@@ -87,6 +87,9 @@ em {
     height: auto;
 }
 
+.sponsers h5 {
+    text-align: center;
+}
 #contact {
     width: 100%;
     color: #F9F3F4;
@@ -181,6 +184,7 @@ em::before, em::after{
 
   .card {
     margin-bottom: 20px;
+    max-width: 75vw;
   }
 
 }

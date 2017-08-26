@@ -16,3 +16,9 @@
 .awards-section img:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 480px) {
+    .awards-section {
+        width: 100%;
+    }
+}

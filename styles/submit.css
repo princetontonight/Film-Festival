@@ -7,11 +7,6 @@
     height: 400px;
 }
 
-.submit-left {
-    width: 50%;
-    float: left;
-}
-
 .submit-right {
     width: 50%;
     float: right;
@@ -45,4 +40,15 @@
 .submit h1 {
     color: white;
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .submit-right {
+        width: 80%;
+        margin: 10% 10%;
+    }
+
+    .submit-card {
+        width: auto;
+    }
 }
