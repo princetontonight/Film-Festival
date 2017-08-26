@@ -27,13 +27,13 @@ h1.center {
 	border: solid #F9F3F4 3px;
 	text-align: center;
 	text-decoration: none;
+    transition: background-color 300ms; border 100ms;
 }
 
 .btn:hover{
-	background-color: #282c33; 
-	border: solid white 3px;
-	border-color: #282c33; 
-	color: #F9F3F4;
+	background-color: #ffbf00; 
+	border-color: #ffbf00; 
+	color: #222;
 }
 
 .center {
