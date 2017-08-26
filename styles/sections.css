@@ -14,6 +14,8 @@ body {
 
 section {
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #about {
@@ -34,7 +36,8 @@ section {
 }
 
 .eastpyne-container {
-  height: 66vh;
+    display: flex;
+    align-items: center;
 }
 
 #about h1, #rules h1, #awards h1, #submit h1, #speakers h1, #venues h1, #sponsors h1, #contact h1 {
@@ -48,7 +51,7 @@ section {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    
+   background-image: url('https://img00.deviantart.net/edca/i/2014/250/f/5/oriental_antique_gilded_background_by_hassified-d7y3ti5.png');
 }
 
 em {
@@ -89,7 +92,7 @@ em {
     width: 100%;
     color: #F9F3F4;
     float: right;
-    
+   display: block; 
 }
 
 .profs {
@@ -159,14 +162,13 @@ em::before, em::after{
 }
 
 .card {
-  background-color: #282c33;
+    background-image: url('http://cdn.wallpapersafari.com/96/31/jmrANo.jpg');
+    background-size: cover;
   max-width: 40vw;
   border-top-right-radius: 19px;
   border-bottom-right-radius: 19px;
-  padding-left: 5px;
-  padding-top: 25px;
-  padding-bottom: 20px;
-  padding-right: 15px; 
+    padding: 25px 15px; 
+  margin-bottom: 5%;
 }
 
 @media (max-width: 480px) {
