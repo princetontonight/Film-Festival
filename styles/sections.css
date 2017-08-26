@@ -55,9 +55,21 @@ section {
 }
 
 em {
-/*  color: #0e9fed; */
+    color: gold;
+}
+
+.gold-em {
+    color: gold;
+}
+
+.silver-em {
+    color: silver;
+}
+
+.tiger-em {
     color: #ef8b34;
 }
+
 
 #submit {
     width: 100%;
@@ -129,7 +141,7 @@ em {
   width: 100%;
   opacity: 0;
   transition: .1s ease;
-  background-color: #ef8b34;
+  background-color: gold;
 }
 
  .prof-container:hover .overlay {
