@@ -27,9 +27,22 @@
     background-image: url('http://cdn.wallpapersafari.com/96/31/jmrANo.jpg');
     background-size: cover;
     border-radius: 8px 0 0 8px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .submit-buttons {
     width: 60%;
     margin: auto;
+    background-color: #ffbf00;
+}
+
+.submit-buttons:focus {
+    outline: none;
+}
+
+.submit h1 {
+    color: white;
+    text-align: center;
 }

@@ -40,7 +40,7 @@ section {
     align-items: center;
 }
 
-#about h1, #rules h1, #awards h1, #submit h1, #speakers h1, #venues h1, #sponsors h1, #contact h1 {
+#about h1, #rules h1, #awards h1, #speakers h1, #venues h1, #sponsors h1, #contact h1 {
     color: #ef8b34;
     font-size: 24px;
     text-align: center;
@@ -69,8 +69,7 @@ em {
 #speakers {
     width: 100%;
     color: #F9F3F4;
-    float: right;
-    
+    float: right; 
 }
 
 #venues {
@@ -93,6 +92,9 @@ em {
     color: #F9F3F4;
     float: right;
    display: block; 
+   background-image: url('https://static.vecteezy.com/system/resources/previews/000/112/100/non_2x/free-strass-vector-gold-glitter-texture-on-black-background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .profs {

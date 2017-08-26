@@ -15,6 +15,7 @@
         <link rel="stylesheet" type="text/css" href="styles/venue.css"/>
         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="slick/carousel.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/speakers.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
         <script src="https://use.fontawesome.com/304bc7a0c2.js"></script>
@@ -122,17 +123,16 @@
             </div>
             <div class="submit-right">
                 <div class="submit-card">
-                    <button class="submit-buttons">Submit</button>
-                    <a href="placeholder.pdf" download>
-                        <button class="submit-buttons">Rules and Guidelines</button>
-                    </a>
+                    <h1>Film Submission</h1>
+                    <button class="submit-buttons" onclick="submitFilm()">Submit</button>
+                    <button class="submit-buttons" onclick="clickedRules()">Rules and Guidelines</button>
                 </div>
             </div>
         </section>
         <section>
-            <div id="speakers">
+            <div id="speakers" class="speakers">
                 <h1> <em> S P E A K E R S </em></h1>
-                <h5> Coming Soon! </h5>
+                <h3>Coming Soon!</h3>
             </div>
         </section>
         <section class="spacer">
@@ -222,6 +222,7 @@
     </body>
 
     <script src="scripts/scroll.js" type="text/javascript"></script>
+    <script src="scripts/submission.js" type="text/javascript"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type='text/javascript' src='slick/carousel.js'></script>
     <script type='text/javascript' src='scripts/header.js'></script>    
