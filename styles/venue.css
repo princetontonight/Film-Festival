@@ -17,7 +17,7 @@
     background-image: url(../assets/picture-frame.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
 
     color: white;
     text-align: center;
@@ -27,8 +27,9 @@
     color: gold;
 }
 
-.picture-frame {
-    width: 400px;
-    margin: auto;
-    display: block;
+@media (max-width: 480px) {
+    .venue-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
