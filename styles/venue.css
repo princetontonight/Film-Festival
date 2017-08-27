@@ -28,8 +28,13 @@
 }
 
 @media (max-width: 480px) {
+    .venue {
+        padding: 18px;
+    }
+
     .venue-card {
         width: 100%;
         box-sizing: border-box;
+        padding: 80px 40px;
     }
 }
