@@ -186,6 +186,7 @@ em::before, em::after{
   border-bottom-right-radius: 19px;
     padding: 25px 15px; 
   margin-bottom: 5%;
+  height: 390px;
 }
 
 @media (max-width: 480px) {
@@ -197,6 +198,7 @@ em::before, em::after{
   .card {
     margin-bottom: 20px;
     max-width: 75vw;
+    height: 520px;
   }
 
 }
@@ -205,5 +207,6 @@ em::before, em::after{
   .card {
     padding-top: 20px;
     margin-top: 150px;
+    height: 435px;
   } 
 }

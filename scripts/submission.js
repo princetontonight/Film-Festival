@@ -3,5 +3,5 @@ function submitFilm() {
 }
 
 function clickedRules() {
-    window.open('placeholder.pdf', '_blank');
+    window.open('PUFF2017Rules.pdf', '_blank');
 }
