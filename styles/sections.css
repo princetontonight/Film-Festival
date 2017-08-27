@@ -209,4 +209,10 @@ em::before, em::after{
     margin-top: 150px;
     height: 435px;
   } 
+
+  #awards em::before, #awards em::after {
+    font-size: 1em;
+    padding-left: 8px;
+    letter-spacing: 5px;
+  } 
 }
