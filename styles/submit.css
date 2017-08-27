@@ -50,5 +50,6 @@
 
     .submit-card {
         width: auto;
+        border-radius: 8px;
     }
 }
