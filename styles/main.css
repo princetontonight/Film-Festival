@@ -1,6 +1,10 @@
 /* Useful color palette: http://www.color-hex.com/color-palette/2799 */
 /*For consistent/common components*/
 
+html {
+    width: 100vw;
+}
+
 button {
     padding: 12px;
     -webkit-border-radius: 5px;
