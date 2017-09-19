@@ -1,5 +1,5 @@
 function submitFilm() {
-    window.open('https://princetontonight.com', '_blank');
+    window.open('https://filmfreeway.com/festival/PrincetonUniversityFilmFestival', '_blank');
 }
 
 function clickedRules() {
