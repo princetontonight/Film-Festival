@@ -1,0 +1,24 @@
+.sponsor-fox {
+	max-width: 40vw;
+    max-height: 300px;
+    display: block;
+    float: left;
+    margin-left: 30vw;
+    margin-top: 2vw;
+}
+
+.sponsor-others {
+	max-width: 25vw;
+	max-height: 200px;
+	display: block;
+	float : left;
+	margin-left: 16vw;
+	margin-top: 5vw;
+	margin-bottom: 3vw;
+}
+
+.sponsor-PT {
+    margin-bottom: 0;
+    margin-left: 22vw;
+    height: 50vw;
+}
