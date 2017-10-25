@@ -7,7 +7,7 @@ var gridData = {
             title: "Jay Stern",
             subtitle: "Horrible Bosses, Rush Hour",
             //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor neque, rhoncus id rhoncus quis, vestibulum non justo.",
-            image: "./assets/jay.jpg",
+            image: "./assets/Jay.jpg",
     		//link: "",
             size: "1",
             category: {
@@ -43,7 +43,7 @@ var gridData = {
             title: "Geoff Rich",
             subtitle: "Avenue Q, The New Group",
             //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor neque, rhoncus id rhoncus quis, vestibulum non justo.",
-            image: "./assets/geoff.jpg",
+            image: "./assets/Geoff.jpg",
     		//link: "",
             size: "1",
             category: {
@@ -103,7 +103,7 @@ var gridData = {
             title: "Nate Johnson",
             subtitle: "Drift Studios",
             //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor neque, rhoncus id rhoncus quis, vestibulum non justo.",
-            image: "./assets/nate.png",
+            image: "./assets/Nate.png",
             //link: "",
             size: "1",
             category: {
@@ -115,7 +115,7 @@ var gridData = {
             title: "Tony Marion",
             subtitle: "Broadway, Groundhog Day",
             //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor neque, rhoncus id rhoncus quis, vestibulum non justo.",
-            image: "./assets/tony.jpg",
+            image: "./assets/Tony.jpg",
             //link: "",
             size: "1",
             category: {
