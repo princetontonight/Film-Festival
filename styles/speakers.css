@@ -5,3 +5,8 @@
 .speakers h3 {
     text-align: center;
 }
+
+.image {
+	width: 225px;
+	height: 300px;
+}

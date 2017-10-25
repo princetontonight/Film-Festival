@@ -28,4 +28,17 @@
 	margin-left: -15vw;
 	height: 140vh;
 	margin-bottom: 2vw;
+	margin-top: 100px;
+}
+
+@media (max-width: 480px) {
+    .awards-section {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 800px) {
+	.awards-section {
+		width: 25vw;
+	}
 }
