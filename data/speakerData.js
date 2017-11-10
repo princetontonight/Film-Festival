@@ -77,7 +77,7 @@ var gridData = {
         },
         {
             title: "Natasha Kalimada",
-            subtitle: "Cirque du Soleil, Actress, Dancer",
+            subtitle: "Actress, Dancer",
             //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dolor neque, rhoncus id rhoncus quis, vestibulum non justo.",
             image: "./assets/natasha.jpg",
     		//link: "",
